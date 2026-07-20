@@ -1,0 +1,26 @@
+# Generated client profiles and temporary exports
+*.ovpn
+*.ovpn.tmp
+
+# OpenVPN / Easy-RSA private material
+*.key
+*.pem
+*.p12
+*.pfx
+*.csr
+*.crt
+pki/
+ovpn-data/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+credentials*
+secrets*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
